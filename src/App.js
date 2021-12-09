@@ -6,7 +6,6 @@ background: blue;
 cursor:pointer;
 @media (min-width: 500px){
   background: red;
-  
 }
 &:hover {
   background: ${props => props.alt?'red':'black'};
